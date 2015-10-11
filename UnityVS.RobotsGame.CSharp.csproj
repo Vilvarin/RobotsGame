@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7C57993-2B6D-3741-68C8-3468A10A1464}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.1.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.RobotsGame.CSharp.Plugins.csproj">
+      <Project>{81D471FB-1D01-37FC-78B6-CFCCF6F3C951}</Project>
+      <Name>UnityVS.RobotsGame.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\RobotsGame\Scripts\Audio\RobotSoundPlayer.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Audio\SoundPlayer.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Board\Blocks\Bomb.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Board\Blocks\Collected.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Board\Blocks\Destructible.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Board\Blocks\Movable.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Board\BoardModel.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Board\IBoardGenerated.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Board\RandomBoardGenerator.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Board\Tile.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\GameManager.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\GenericEventArgs.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Instrument\BombInstrument.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Instrument\CollectInstrument.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Instrument\DozerInstrument.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Instrument\DrillInstrument.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Instrument\IInstrument.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Instrument\InstrumentsEnum.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Instrument\NullInstrument.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Robot.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\RobotCommander.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\RobotFabric.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Shassis\FlyShassis.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Shassis\IShassis.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Shassis\JumpShassis.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Shassis\NullShassis.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Shassis\ShassisEnum.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Robots\Shassis\WheelShassis.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Storages\AnimationStorage.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Storages\ClipStorage.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Storages\ObjectStorage.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\Storages\SpriteStorage.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Objects\LoadGameButton.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Objects\PressedToggle.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Presenters\ConstructorPresenter.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Presenters\ControlPresenter.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Presenters\CountersPresenter.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Presenters\HowToPanelPresenter.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Presenters\PanelPresenter.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Presenters\StartMenuPresenter.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Buttons\InstrumentButton.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Buttons\ReedyButton.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Buttons\RobotButton.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Displays\CounterWithTitle.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Displays\PreviewImage.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Displays\PreviewText.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Panels\ChangeRobotPanel.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Panels\Panel.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Panels\PanelWithRobots.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Panels\RollingPanel.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Platform.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Toggles\InstrumentToggle.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UI\Views\Toggles\ShassisToggle.cs" />
+    <Compile Include="Assets\RobotsGame\Scripts\UtilityFunctions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

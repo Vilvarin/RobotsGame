@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.RobotsGame.CSharp.Plugins", "UnityVS.RobotsGame.CSharp.Plugins.csproj", "{81D471FB-1D01-37FC-78B6-CFCCF6F3C951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.RobotsGame.CSharp", "UnityVS.RobotsGame.CSharp.csproj", "{F7C57993-2B6D-3741-68C8-3468A10A1464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.RobotsGame.CSharp.Editor", "UnityVS.RobotsGame.CSharp.Editor.csproj", "{AA99005A-F9C7-345A-5791-956CA09EF828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81D471FB-1D01-37FC-78B6-CFCCF6F3C951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D471FB-1D01-37FC-78B6-CFCCF6F3C951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D471FB-1D01-37FC-78B6-CFCCF6F3C951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D471FB-1D01-37FC-78B6-CFCCF6F3C951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C57993-2B6D-3741-68C8-3468A10A1464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C57993-2B6D-3741-68C8-3468A10A1464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C57993-2B6D-3741-68C8-3468A10A1464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C57993-2B6D-3741-68C8-3468A10A1464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA99005A-F9C7-345A-5791-956CA09EF828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA99005A-F9C7-345A-5791-956CA09EF828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA99005A-F9C7-345A-5791-956CA09EF828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA99005A-F9C7-345A-5791-956CA09EF828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
